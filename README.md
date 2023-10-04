@@ -42,8 +42,8 @@ mvnw clean package
 
 ## Run
 
-1.Deploy war to Tomcat, for example by manually copying to webapps directory.
-2.Take a look at http://localhost:8080/hello.
+- 1.Deploy war to Tomcat, for example by manually copying to webapps directory.
+- 2.Take a look at http://localhost:8080/hello.
 
 ### License
 
