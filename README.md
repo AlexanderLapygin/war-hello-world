@@ -12,13 +12,12 @@
 - maven
 - starter
 - template
+- war
 
 ---
 
-## Direct descendants
-- [+ log4j](https://github.com/AlexanderLapygin/log4j-starter#readme)
-- [+ logback](https://github.com/AlexanderLapygin/logback-starter/tree/main#readme)
-- [+ spring-boot](https://github.com/AlexanderLapygin/spring-boot-helloworld/tree/main#readme)
+## Direct ancestor
+[- war](https://github.com/AlexanderLapygin/java-helloworld/tree/main#readme)
 
 ---
 
@@ -31,6 +30,7 @@
 ## Requirements
 
 - [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
+- [Tomcat](https://tomcat.apache.org/)
 
 ---
 
@@ -46,7 +46,8 @@ mvnw clean package
 java -cp target/hello-world-1.0-SNAPSHOT.jar com.example.App
 ```
 
-Watch 'Hello World!' in the console.
+Deploy war to Tomcat, for example by manually copying to webapps directory.
+Take a look at http://localhost:8080/hello.
 
 ### License
 
