@@ -42,10 +42,6 @@ mvnw clean package
 
 ## Run
 
-```sh
-java -cp target/hello-world-1.0-SNAPSHOT.jar com.example.App
-```
-
 1.Deploy war to Tomcat, for example by manually copying to webapps directory.
 2.Take a look at http://localhost:8080/hello.
 
